@@ -12,10 +12,12 @@ function destructivelyAddElementToBeginningOfArray() {
 
 function addElementToEndOfArray() {
   chocolateBars = [...chocolateBars, "Mr Big"]
+  return chocolateBars
 }
 
 function destructivelyAddElementToEndOfArray() {
   [...chocolateBars, "Crunchy"]
+  return chocolateBars
 }
 
 function accessElementInArray() {
