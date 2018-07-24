@@ -32,3 +32,4 @@ function removeElementFromBeginningOfArray() {
   return chocolateBars
 }
 
+function 
