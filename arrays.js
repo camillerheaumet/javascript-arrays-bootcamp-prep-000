@@ -22,4 +22,6 @@ function accessElementInArray() {
   return console.log(chocolateBars[3])
 }
 
-function 
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
