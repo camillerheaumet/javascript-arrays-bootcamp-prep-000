@@ -15,9 +15,11 @@ function addElementToEndOfArray() {
 }
 
 function destructivelyAddElementToEndOfArray() {
-  chocolateBars = [...chocolateBars, "Crunchy"]
+  [...chocolateBars, "Crunchy"]
 }
 
 function accessElementInArray() {
   return console.log(chocolateBars[3])
 }
+
+function 
