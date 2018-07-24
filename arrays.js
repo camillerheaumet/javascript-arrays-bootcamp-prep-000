@@ -6,7 +6,7 @@ function addElementToBeginningOfArray() {
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  chocolateBars = ["Caramilk",...chocolateBars]
+  chocolateBars.unshift("Caramilk")
   return chocolateBars
 }
 
@@ -17,4 +17,7 @@ function addElementToEndOfArray() {
 function destructivelyAddElementToEndOfArray() {
   chocolateBars = [...chocolateBars, "Crunchy"]
 }
-function console.log(chocolateBars[3])
+
+function accessElementInArray() {
+  return console.log(chocolateBars[3])
+}
