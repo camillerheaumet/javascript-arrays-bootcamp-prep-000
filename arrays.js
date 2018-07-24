@@ -17,3 +17,4 @@ function addElementToEndOfArray() {
 function destructivelyAddElementToEndOfArray() {
   chocolateBars = [...chocolateBars, "Crunchy"]
 }
+function console.log(chocolateBars[3])
